@@ -1,20 +1,11 @@
-## Weather-Journal App 
 
+# Weather-Journal App Project
 
 ## Overview
-Creating an asynchronous web app that uses Web API and user data to dynamically update the UI for a Weather-Journal App.
+This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
 
 ## Instructions
-The Express app instance should be pointed to the project folder named `website`
+This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
 
-
-## How to run locally
-- Make sure Node is installed from the terminal.
-- Install the packages Express, Body-Parser, and Cors from the terminal.
-- Make sure the server is running using Node in the terminal to run the file server.js
-
-## Dependencies
-- Node
-- express
-- body-parser
-- cors
+## Extras
+If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
