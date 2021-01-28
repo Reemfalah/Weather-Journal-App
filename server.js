@@ -25,26 +25,6 @@ const server = app.listen(3000, listening);
 function listening() {
     console.log(`The serever is running on => localhost: ${port}`);
 }
-// //GET function
-// app.get('/allData', sendData);
-
-// function sendData(request, respone){
-// respone.send(projectData);
-// }
-
-// // post function
-// app.post ('/addData', addData);
-
-// function addData (request, respone){
-// let data = request.body;
-// console.log('server side data', data)
-
-// projectData["date"] = data.date;
-// projectData["temp"] = data.temp;
-// projectData ["feel"] = data.feeling;
-// respone.send(projectData);
-
-// }
 
 //GET Route
 app.get("/weather", (req, res) => res.send(projectData));
