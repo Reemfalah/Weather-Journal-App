@@ -13,7 +13,9 @@ let newDate = d.getMonth() + "." + d.getDate() + "." + d.getFullYear();
 const baseUrl = "https://api.openweathermap.org/data/2.5/weather?units=imperial&zip=";
 const apiKey = "df0d3461865ce0be174fd59d5d73da0a";
 
-document.getElementById("generate").addEventListener("click", generateBtnHandler);
+window.onload=function(){
+    document.getElementById("generate").addEventListener("click", generateBtnHandler);
+  }
 
 function generateBtnHandler() {
     const country = document.getElementById("country").value;
